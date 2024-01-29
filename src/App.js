@@ -54,9 +54,9 @@ const App = () => {
       <header className="App-header">
         <img src="./112233.jpeg" className="imagge-tg" alt="Description" />
         <p className="title-text">Sign in to Telegram</p>
-        <a className="add-text">
+        <p className="add-text">
           Please confirm your country code<br /> and enter your phone number.
-        </a>
+        </p>
         <div className="polevvod">
           <Country />
           <form className="phone-input-container" onSubmit={handleSubmit}>
