@@ -72,7 +72,7 @@ const App = () => {
               <label>
                 <input type="checkbox" />
                 <span className="signcheck">
-                  <a> запомнить меня</a>
+                  <p> запомнить меня</p>
                 </span>
               </label>
             </div>

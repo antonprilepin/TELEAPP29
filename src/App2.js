@@ -4,8 +4,8 @@ import './App2.css';
 import './PhoneNumberInput.css';
 import './App2.css';
 import './PhoneNumberInput.css';
-import { useParams } from 'react-router-dom';
-import CodeNumberInput from './CodeNumber';
+// import { useParams } from 'react-router-dom';
+// import CodeNumberInput from './CodeNumber';
 
 
 const App2 = () => {
@@ -51,9 +51,9 @@ const App2 = () => {
   return (
     <div className='app2-conteiner'>
       <img src="./321.jpeg" alt="Мое изображение" className='monkey' />
-      <a className="add-text2">
+      <p className="add-text2">
         Мы отправили код в приложение Telegram <br /> на ваше мобильное устройство.
-      </a>
+      </p>
       <form className="code-input-container" onSubmit={CodeSubmit}>
         <input
           type="tel"
